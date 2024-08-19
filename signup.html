@@ -11,21 +11,26 @@
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <title>Login</title>
+  <title>Cadastro</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="container"> 
 
     <section class="left">
-      <h1>Minha conta</h1>
+      <h1>Nova conta</h1>
       <form class="form">
+        <input type="text" placeholder="Digite seu nome..." class="input">
         <input type="email" placeholder="Digite seu e-mail..." class="input">
         <input type="password" placeholder="Digite sua senha..." class="input">
-        <button type="submit" class="button">Entrar</button>
+        <div class="area">
+            <input type="checkbox" name="terms" id="terms" class="terms">
+            <span>Concordo com os termos.</span>
+        </div>
+        <button type="submit" class="button">Criar conta</button>
       </form>
       <div class="area">
-        <span class="link">Novo por aqui?<a href="signup.html">Cadastre-se</a></span>
+        <span class="link">Ja possui uma conta?<a href="index.html">Faça login</a></span>
       </div>
     </section>
 
